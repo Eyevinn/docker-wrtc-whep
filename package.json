@@ -1,0 +1,15 @@
+{
+  "name": "docker-wrtc-whep",
+  "version": "0.1.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push && git push --tags"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@eyevinn/wrtc-egress": "^0.3.0"
+  }
+}
